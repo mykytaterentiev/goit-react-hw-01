@@ -1,7 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Profile from './components/Profile/Profile'
+import userData from './userData.json'
+import FriendList from './components/FriendList/FriendList';
+import friends from './friends.json'
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import transactions from './transactions.json'
+
+
+  
 
 const App = () => {
   return (
